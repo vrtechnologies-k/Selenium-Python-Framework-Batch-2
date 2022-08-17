@@ -14,33 +14,33 @@ class HomePage:
     checkbox = (By.ID,'exampleCheck1')
     gender = (By.ID,'exampleFormControlSelect1')
     radio = (By.ID,'inlineRadio2')
-    bday = (By.ID,'bday')
+    bday = (By.NAME,'bday')
     submit = (By.CSS_SELECTOR,"[class*='btn-success']")
     alert = (By.CSS_SELECTOR,"[class*='alert-success']")
 
     def getName(self):
-        self.driver.find_element(*HomePage.name)
+        return self.driver.find_element(*HomePage.name)
 
     def getEmail(self):
-        self.driver.find_element(*HomePage.email)
+       return self.driver.find_element(*HomePage.email)
 
     def getPassword(self):
-        self.driver.find_element(*HomePage.password)
+        return self.driver.find_element(*HomePage.password)
 
     def getCheckbox(self):
-        self.driver.find_element(*HomePage.checkbox)
+        return self.driver.find_element(*HomePage.checkbox)
 
     def getGender(self):
-        self.driver.find_element(*HomePage.gender)
+        return self.driver.find_element(*HomePage.gender)
 
     def getRadio(self):
-        self.driver.find_element(*HomePage.radio)
+        return self.driver.find_element(*HomePage.radio)
 
     def getBday(self):
-        self.driver.find_element(*HomePage.bday)
+       return self.driver.find_element(*HomePage.bday)
 
     def getSubmit(self):
-        self.driver.find_element(*HomePage.submit)
+        return self.driver.find_element(*HomePage.submit)
 
     def getAlert(self):
-        self.driver.find_element(*HomePage.alert)
+        return self.driver.find_element(*HomePage.alert)

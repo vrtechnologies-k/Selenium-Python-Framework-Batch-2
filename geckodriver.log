@@ -91,3 +91,48 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
 JavaScript error: resource://gre/modules/CrashManager.jsm, line 895: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1660461774674	geckodriver	INFO	Listening on 127.0.0.1:64178
+1660461777639	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\venkatak\\AppData\\Local\\Temp\\rust_mozprofileOPqrM2"
+1660461782667	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\venkatak\\AppData\\Local\\Temp\\rust_mozprofileOPqrM2\\search.json.mozlz4", (void 0)))
+1660461794100	Marionette	INFO	Listening on port 64186
+1660461794658	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+1660461823076	Marionette	INFO	Stopped listening on port 64186
+[Parent 24748, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1660461824548	geckodriver	INFO	Listening on 127.0.0.1:64265
+1660461827577	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\venkatak\\AppData\\Local\\Temp\\rust_mozprofileWBv5Jk"
+1660461827936	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\venkatak\\AppData\\Local\\Temp\\rust_mozprofileWBv5Jk\\search.json.mozlz4", (void 0)))
+1660461831391	Marionette	INFO	Listening on port 64273
+1660461831882	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+1660461839493	Marionette	INFO	Stopped listening on port 64273
+1660461921274	geckodriver	INFO	Listening on 127.0.0.1:64375
+1660461924318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\venkatak\\AppData\\Local\\Temp\\rust_mozprofile564cap"
+1660461924695	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\venkatak\\AppData\\Local\\Temp\\rust_mozprofile564cap\\search.json.mozlz4", (void 0)))
+1660461928263	Marionette	INFO	Listening on port 64385
+1660461928607	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+1660461956023	Marionette	INFO	Stopped listening on port 64385
+[Parent 7020, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1660461957348	geckodriver	INFO	Listening on 127.0.0.1:64468
+1660461960382	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\venkatak\\AppData\\Local\\Temp\\rust_mozprofiletwvNHL"
+1660461960906	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\venkatak\\AppData\\Local\\Temp\\rust_mozprofiletwvNHL\\search.json.mozlz4", (void 0)))
+1660461964647	Marionette	INFO	Listening on port 64478
+1660461965230	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1660461969432	Marionette	INFO	Stopped listening on port 64478
+[Parent 552, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

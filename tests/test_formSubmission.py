@@ -32,3 +32,7 @@ class TestTwo(BaseClass):
 
     def test_sample(self):
         print("sample test")
+
+    @pytest.fixture(params=[("venkat","venkat@gmail.com","venkat@123","Male","01-08-1988")])
+    def getData(self,request):
+        return request.param
