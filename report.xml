@@ -242,13 +242,40 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
     notFoundMessage.hidden = !allRowsHidden;
 }
 </script>
-    <h1>report.html</h1>
-    <p>Report generated on 18-Aug-2022 at 07:52:14 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <h1>report.xml</h1>
+    <p>Report generated on 18-Aug-2022 at 08:21:21 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
+        <td>BUILD_ID</td>
+        <td>1</td></tr>
+      <tr>
+        <td>BUILD_NUMBER</td>
+        <td>1</td></tr>
+      <tr>
+        <td>BUILD_TAG</td>
+        <td>jenkins-Selenium Python Pytest Framework-1</td></tr>
+      <tr>
+        <td>BUILD_URL</td>
+        <td><a href="http://localhost:8080/job/Selenium%20Python%20Pytest%20Framework/1/" target="_blank">http://localhost:8080/job/Selenium%20Python%20Pytest%20Framework/1/</a></td></tr>
+      <tr>
+        <td>CI</td>
+        <td>true</td></tr>
+      <tr>
+        <td>EXECUTOR_NUMBER</td>
+        <td>0</td></tr>
+      <tr>
         <td>JAVA_HOME</td>
         <td>C:\Program Files\Java\jdk1.8.0_261</td></tr>
+      <tr>
+        <td>JENKINS_URL</td>
+        <td><a href="http://localhost:8080/" target="_blank">http://localhost:8080/</a></td></tr>
+      <tr>
+        <td>JOB_NAME</td>
+        <td>Selenium Python Pytest Framework</td></tr>
+      <tr>
+        <td>NODE_NAME</td>
+        <td>built-in</td></tr>
       <tr>
         <td>Packages</td>
         <td>{"pluggy": "1.0.0", "py": "1.11.0", "pytest": "6.2.5"}</td></tr>
@@ -260,9 +287,12 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>{"html": "3.1.1", "metadata": "1.11.0"}</td></tr>
       <tr>
         <td>Python</td>
-        <td>3.10.5</td></tr></table>
+        <td>3.10.5</td></tr>
+      <tr>
+        <td>WORKSPACE</td>
+        <td>D:\PythonProjects\SeleniumPythonAutomationFrameworkBatch2</td></tr></table>
     <h2>Summary</h2>
-    <p>4 tests ran in 43.10 seconds. </p>
+    <p>4 tests ran in 45.84 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">4 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -278,29 +308,37 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_e2e.py::TestOne::test_placeOrder</td>
-          <td class="col-duration">31.99</td>
+          <td class="col-duration">33.27</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>3
+3
+[&#x27;Cucumber - 1 Kg&#x27;, &#x27;Raspberry - 1/4 Kg&#x27;, &#x27;Strawberry - 1/4 Kg&#x27;]
+[&#x27;Cucumber - 1 Kg&#x27;, &#x27;Raspberry - 1/4 Kg&#x27;, &#x27;Strawberry - 1/4 Kg&#x27;]
+<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_formSubmission.py::TestTwo::test_submitForm[getData0]</td>
-          <td class="col-duration">6.00</td>
+          <td class="col-duration">7.12</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>×
+Success! The Form has been submitted successfully!.
+<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_formSubmission.py::TestTwo::test_submitForm[getData1]</td>
-          <td class="col-duration">2.71</td>
+          <td class="col-duration">3.16</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>×
+Success! The Form has been submitted successfully!.
+<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
@@ -309,4 +347,5 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>sample test
+<br/></div></td></tr></tbody></table></body></html>
